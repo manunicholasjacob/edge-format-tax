@@ -1,0 +1,25 @@
+{
+  "title": "Your Quantization Format Is Not Free: Same-Size, Same-Label GGUF Files Decode Very Differently on Edge CPUs",
+  "description": "Public artifact for the HotMobile 2027 submission. Controlled measurements on three CPU microarchitectures (Cortex-A76, Gracemont, Golden Cove) showing that a GGUF quantization format label is a poor predictor of decode cost: provenance changes per-tensor layout (up to 38% throughput difference at the same label), the Q4_K_M default sits below the streaming envelope on every core, and format rankings do not transfer across core types. Includes raw measurement records, per-format quantization logs, runtime repack-coverage logs, PMIC energy, perplexity, control runs, and the compiled manuscript.",
+  "creators": [
+    {
+      "name": "Jacob, Manu Nicholas",
+      "orcid": "0009-0007-6589-6572"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "LLM inference",
+    "quantization",
+    "GGUF",
+    "edge computing",
+    "Raspberry Pi",
+    "Cortex-A76",
+    "Alder Lake",
+    "energy efficiency",
+    "llama.cpp",
+    "memory bandwidth"
+  ]
+}
