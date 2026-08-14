@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or its results, please cite it as below."
 title: "Your Quantization Format Is Not Free: Same-Size, Same-Label GGUF Files Decode Very Differently on Edge CPUs"
+doi: 10.5281/zenodo.21938812
 authors:
   - family-names: "Jacob"
     given-names: "Manu Nicholas"

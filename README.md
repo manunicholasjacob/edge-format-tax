@@ -1,5 +1,7 @@
 # Your Quantization Format Is Not Free
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21938812.svg)](https://doi.org/10.5281/zenodo.21938812)
+
 **Same-size, same-label GGUF files decode very differently on edge CPUs.**
 
 Public artifact for the HotMobile 2027 submission. All measurements are on the
