@@ -1,0 +1,10 @@
+{"tag": "Q4_0", "threads": 2, "bytes": 1066227232, "tok_s": 12.030307, "implied_BW_GBs": 12.827040932720225, "mean_W": "4.142", "mJ_per_tok": 344.2971156097679}
+{"tag": "Q4_0", "threads": 4, "bytes": 1066227232, "tok_s": 9.366198, "implied_BW_GBs": 9.986495367903936, "mean_W": "4.142", "mJ_per_tok": 442.2285328582633}
+{"tag": "IQ4_NL", "threads": 2, "bytes": 1072764448, "tok_s": 12.072254, "implied_BW_GBs": 12.950684898425791, "mean_W": "4.302", "mJ_per_tok": 356.3543311795792}
+{"tag": "IQ4_NL", "threads": 4, "bytes": 1072764448, "tok_s": 9.308358, "implied_BW_GBs": 9.985675531656383, "mean_W": "4.302", "mJ_per_tok": 462.1652927401373}
+{"tag": "IQ4_XS", "threads": 2, "bytes": 1026162208, "tok_s": 13.32447, "implied_BW_GBs": 13.67306755562976, "mean_W": "5.510", "mJ_per_tok": 413.52489067107354}
+{"tag": "IQ4_XS", "threads": 4, "bytes": 1026162208, "tok_s": 12.188408, "implied_BW_GBs": 12.507283665284865, "mean_W": "5.510", "mJ_per_tok": 452.0688838115691}
+{"tag": "Q3_K_M", "threads": 2, "bytes": 924455968, "tok_s": 10.014623, "implied_BW_GBs": 9.258077999620063, "mean_W": "4.957", "mJ_per_tok": 494.9761963081386}
+{"tag": "Q3_K_M", "threads": 4, "bytes": 924455968, "tok_s": 12.39598, "implied_BW_GBs": 11.45953769020864, "mean_W": "4.957", "mJ_per_tok": 399.8877055303413}
+{"tag": "Q4_K_M", "threads": 2, "bytes": 1117320736, "tok_s": 11.190575, "implied_BW_GBs": 12.5034614952632, "mean_W": "4.027", "mJ_per_tok": 359.8563970126646}
+{"tag": "Q4_K_M", "threads": 4, "bytes": 1117320736, "tok_s": 8.222364, "implied_BW_GBs": 9.187017796139903, "mean_W": "4.027", "mJ_per_tok": 489.76182518798726}

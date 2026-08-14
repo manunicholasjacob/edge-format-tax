@@ -1,0 +1,22 @@
+
+core model                        threads  tok_s     bytes impliedBW
+---- -----                        -------  -----     ----- ---------
+E    qwen0.5b-IQ4_NL.fp16src.gguf       2 19.348 430880608     8.337
+E    qwen0.5b-IQ4_XS.fp16src.gguf       2 18.089 428020576     7.743
+E    qwen0.5b-Q2_K.fp16src.gguf         2 18.153 415182688     7.537
+E    qwen0.5b-Q3_K_M.fp16src.gguf       2 19.700 432041824     8.511
+E    qwen0.5b-Q4_0.fp16src.gguf         2 18.784 428730208     8.053
+E    qwen0.5b-Q4_K_M.fp16src.gguf       2 13.367 491400032     6.568
+E    qwen0.5b-Q6_K.fp16src.gguf         2 17.862 650379104    11.617
+E    qwen0.5b-Q8_0.fp16src.gguf         2 16.751 675710816    11.319
+E    qwen0.5b-IQ4_NL.fp16src.gguf       4 43.556 430880608    18.767
+E    qwen0.5b-IQ4_XS.fp16src.gguf       4 36.729 428020576    15.721
+E    qwen0.5b-Q2_K.fp16src.gguf         4 36.195 415182688    15.027
+E    qwen0.5b-Q3_K_M.fp16src.gguf       4 36.435 432041824    15.741
+E    qwen0.5b-Q4_0.fp16src.gguf         4 35.071 428730208    15.036
+E    qwen0.5b-Q4_K_M.fp16src.gguf       4 29.333 491400032    14.414
+E    qwen0.5b-Q6_K.fp16src.gguf         4 28.530 650379104    18.556
+E    qwen0.5b-Q8_0.fp16src.gguf         4 31.188 675710816    21.074
+
+
+

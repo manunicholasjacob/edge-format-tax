@@ -1,0 +1,170 @@
+﻿[
+    {
+        "model":  "qwen0.5b-Q4_0.gguf",
+        "threads":  2,
+        "tok_s":  55.575,
+        "bytes":  352155200,
+        "impliedBW_GBs":  19.571
+    },
+    {
+        "model":  "qwen0.5b-Q4_0.gguf",
+        "threads":  4,
+        "tok_s":  91.403,
+        "bytes":  352155200,
+        "impliedBW_GBs":  32.188
+    },
+    {
+        "model":  "qwen0.5b-Q4_0.gguf",
+        "threads":  6,
+        "tok_s":  102.439,
+        "bytes":  352155200,
+        "impliedBW_GBs":  36.075
+    },
+    {
+        "model":  "qwen0.5b-IQ4_NL.gguf",
+        "threads":  2,
+        "tok_s":  54.593,
+        "bytes":  354305600,
+        "impliedBW_GBs":  19.343
+    },
+    {
+        "model":  "qwen0.5b-IQ4_NL.gguf",
+        "threads":  4,
+        "tok_s":  90.842,
+        "bytes":  354305600,
+        "impliedBW_GBs":  32.186
+    },
+    {
+        "model":  "qwen0.5b-IQ4_NL.gguf",
+        "threads":  6,
+        "tok_s":  102.905,
+        "bytes":  354305600,
+        "impliedBW_GBs":  36.460
+    },
+    {
+        "model":  "qwen0.5b-IQ4_XS.gguf",
+        "threads":  2,
+        "tok_s":  54.160,
+        "bytes":  351445568,
+        "impliedBW_GBs":  19.034
+    },
+    {
+        "model":  "qwen0.5b-IQ4_XS.gguf",
+        "threads":  4,
+        "tok_s":  87.858,
+        "bytes":  351445568,
+        "impliedBW_GBs":  30.877
+    },
+    {
+        "model":  "qwen0.5b-IQ4_XS.gguf",
+        "threads":  6,
+        "tok_s":  99.335,
+        "bytes":  351445568,
+        "impliedBW_GBs":  34.911
+    },
+    {
+        "model":  "qwen0.5b-Q6_K.gguf",
+        "threads":  2,
+        "tok_s":  39.965,
+        "bytes":  505736768,
+        "impliedBW_GBs":  20.212
+    },
+    {
+        "model":  "qwen0.5b-Q6_K.gguf",
+        "threads":  4,
+        "tok_s":  62.600,
+        "bytes":  505736768,
+        "impliedBW_GBs":  31.659
+    },
+    {
+        "model":  "qwen0.5b-Q6_K.gguf",
+        "threads":  6,
+        "tok_s":  74.601,
+        "bytes":  505736768,
+        "impliedBW_GBs":  37.728
+    },
+    {
+        "model":  "qwen0.5b-Q3_K_M.gguf",
+        "threads":  2,
+        "tok_s":  56.561,
+        "bytes":  355466816,
+        "impliedBW_GBs":  20.105
+    },
+    {
+        "model":  "qwen0.5b-Q3_K_M.gguf",
+        "threads":  4,
+        "tok_s":  86.909,
+        "bytes":  355466816,
+        "impliedBW_GBs":  30.893
+    },
+    {
+        "model":  "qwen0.5b-Q3_K_M.gguf",
+        "threads":  6,
+        "tok_s":  102.280,
+        "bytes":  355466816,
+        "impliedBW_GBs":  36.357
+    },
+    {
+        "model":  "qwen0.5b-q2k.gguf",
+        "threads":  2,
+        "tok_s":  55.232,
+        "bytes":  338607520,
+        "impliedBW_GBs":  18.702
+    },
+    {
+        "model":  "qwen0.5b-q2k.gguf",
+        "threads":  4,
+        "tok_s":  90.543,
+        "bytes":  338607520,
+        "impliedBW_GBs":  30.658
+    },
+    {
+        "model":  "qwen0.5b-q2k.gguf",
+        "threads":  6,
+        "tok_s":  103.204,
+        "bytes":  338607520,
+        "impliedBW_GBs":  34.945
+    },
+    {
+        "model":  "qwen0.5b-q4km.gguf",
+        "threads":  2,
+        "tok_s":  41.521,
+        "bytes":  397808192,
+        "impliedBW_GBs":  16.517
+    },
+    {
+        "model":  "qwen0.5b-q4km.gguf",
+        "threads":  4,
+        "tok_s":  71.127,
+        "bytes":  397808192,
+        "impliedBW_GBs":  28.295
+    },
+    {
+        "model":  "qwen0.5b-q4km.gguf",
+        "threads":  6,
+        "tok_s":  84.116,
+        "bytes":  397808192,
+        "impliedBW_GBs":  33.462
+    },
+    {
+        "model":  "qwen0.5b-q8.gguf",
+        "threads":  2,
+        "tok_s":  38.821,
+        "bytes":  531068480,
+        "impliedBW_GBs":  20.617
+    },
+    {
+        "model":  "qwen0.5b-q8.gguf",
+        "threads":  4,
+        "tok_s":  64.727,
+        "bytes":  531068480,
+        "impliedBW_GBs":  34.375
+    },
+    {
+        "model":  "qwen0.5b-q8.gguf",
+        "threads":  6,
+        "tok_s":  74.768,
+        "bytes":  531068480,
+        "impliedBW_GBs":  39.707
+    }
+]

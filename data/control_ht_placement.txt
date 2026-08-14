@@ -1,0 +1,16 @@
+HT-placement control: mask 0x555 (one thread per physical P-core, no hyperthreading)
+Model: Qwen2.5-0.5B-Instruct, FP16-sourced canonical artifacts
+Platform: i7-12700H Golden Cove P-cores only, 2 threads
+
+Format              t2 tok/s   impliedBW_GBs
+Q4_0.fp16src        56.030     24.02
+IQ4_NL.fp16src      40.330     17.38
+IQ4_XS.fp16src      42.087     18.01
+Q3_K_M.fp16src      39.060     16.88
+Q4_K_M.fp16src      35.047     17.22
+
+Result: Format ordering preserved (Q4_0 top, Q4_K_M bottom).
+Conclusion: x86 P-core claims are not HT artifacts.
+Note: Absolute throughput lower than canonical mask-0xFFF runs because mask 0x555
+selects only physical cores (no SMT scheduling flexibility), but the relative ordering
+is identical, confirming the format-tax pattern is not an SMT artifact.

@@ -1,0 +1,130 @@
+﻿[
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-IQ4_NL.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  19.348,
+        "bytes":  430880608,
+        "impliedBW":  8.337
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-IQ4_NL.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  43.556,
+        "bytes":  430880608,
+        "impliedBW":  18.767
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-IQ4_XS.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  18.089,
+        "bytes":  428020576,
+        "impliedBW":  7.743
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-IQ4_XS.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  36.729,
+        "bytes":  428020576,
+        "impliedBW":  15.721
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q2_K.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  18.153,
+        "bytes":  415182688,
+        "impliedBW":  7.537
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q2_K.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  36.195,
+        "bytes":  415182688,
+        "impliedBW":  15.027
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q3_K_M.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  19.700,
+        "bytes":  432041824,
+        "impliedBW":  8.511
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q3_K_M.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  36.435,
+        "bytes":  432041824,
+        "impliedBW":  15.741
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q4_0.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  18.784,
+        "bytes":  428730208,
+        "impliedBW":  8.053
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q4_0.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  35.071,
+        "bytes":  428730208,
+        "impliedBW":  15.036
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q4_K_M.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  13.367,
+        "bytes":  491400032,
+        "impliedBW":  6.568
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q4_K_M.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  29.333,
+        "bytes":  491400032,
+        "impliedBW":  14.414
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q6_K.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  17.862,
+        "bytes":  650379104,
+        "impliedBW":  11.617
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q6_K.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  28.530,
+        "bytes":  650379104,
+        "impliedBW":  18.556
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q8_0.fp16src.gguf",
+        "threads":  2,
+        "tok_s":  16.751,
+        "bytes":  675710816,
+        "impliedBW":  11.319
+    },
+    {
+        "core":  "E",
+        "model":  "qwen0.5b-Q8_0.fp16src.gguf",
+        "threads":  4,
+        "tok_s":  31.188,
+        "bytes":  675710816,
+        "impliedBW":  21.074
+    }
+]

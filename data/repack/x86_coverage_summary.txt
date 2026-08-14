@@ -1,0 +1,16 @@
+x86 (AVX2) runtime repack coverage per canonical artifact, from llama-bench -v load logs.
+"repeating MiB" from the tensor-map parse (pi5_canonical_quant.log); coverage = repacked/repeating.
+
+format   repacked_MiB  tensors  kinds                 repeating_MiB  coverage
+Q4_0         191.95      168    q4_0_8x8                  192.2       ~100%
+IQ4_NL       183.46      141    iq4_nl_8x8                194.3        94%
+Q3_K_M       177.80      119    q4_0_8x8,q4_K_8x8         195.6        91%
+Q2_K         134.37      120    q4_0_8x8                  179.5        75%
+IQ4_XS       134.37      120    iq4_nl_8x8                191.5        70%
+Q4_K_M        28.05       12    q4_K_8x8                  236.3        12%
+Q6_K           0.00        0    none                      338.9         0%
+Q8_0           0.00        0    none                      363.1         0%
+
+Reading: within the 4-bit class, streamed-normalized speed on P-cores orders exactly by
+coverage x kernel-kind cost; Q6_K/Q8_0 reach the envelope with zero repack because their
+plain AVX2 dot kernels are cheap enough (and they are the most bandwidth-bound files).
