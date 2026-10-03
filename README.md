@@ -56,8 +56,8 @@ sampled at 10 Hz in a separate identical run). x86 arms: `code/bitfloor_x86.ps1`
 
 ## Citation
 
-See `CITATION.cff`. This artifact is archived on Zenodo; the DOI badge will appear here
-once the first release is minted.
+See `CITATION.cff`. Archived on Zenodo; the concept DOI
+[10.5281/zenodo.21938812](https://doi.org/10.5281/zenodo.21938812) always resolves to the latest version.
 
 ## License
 
