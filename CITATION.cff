@@ -10,8 +10,8 @@ authors:
 type: software
 repository-code: "https://github.com/manunicholasjacob/edge-format-tax"
 url: "http://manunicholasjacob.com/"
-version: "1.0.0"
-date-released: "2026-08-14"
+version: "1.1.0"
+date-released: "2026-10-12"
 keywords:
   - "LLM inference"
   - "quantization"
